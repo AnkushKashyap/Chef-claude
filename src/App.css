@@ -1,0 +1,19 @@
+#top{
+  display: flex;
+  flex-direction: row;
+  font-size: 50px;
+  padding: 40px;
+  justify-content: center;
+
+}
+
+#img{
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+#title{
+  font-size: 120px;
+  color:rgb(49, 49, 49)
+}
