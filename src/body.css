@@ -3,11 +3,7 @@
     flex-direction: row;
     gap: 20px;
     justify-content: center;
-    background-color: rgb(255, 248, 239);
-    height: 64vh;
-    border-radius: 0px 0px 20px 20px;
-    padding: 60px;
-
+    align-items: center;
 }
 
 #add{
@@ -24,8 +20,7 @@
 #in{
     border-radius: 20px;
     height: 90px;
-    width: 1400px;
-    margin-left: 70px;
+    width: 600px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
     padding: 20px;
@@ -36,11 +31,41 @@
     flex-direction: column;
     gap: 20px;
     font-size: 40px;
-    justify-content: center;
+    align-items: left;
     background-color: rgb(255, 248, 239);
-    height: 64vh;
+    min-height: 64vh;
     border-radius: 0px 0px 20px 20px;
     padding: 60px;
+    padding: 50px;
+}
+
+
+#r{
+    border-radius: 20px;
+    max-height: 130px;
+    max-width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#g{
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 87vh;
+}
+
+#p{
+    font-size: 30px;
 
 }
 
+#i{
+    margin-top: 200px;
+}

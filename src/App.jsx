@@ -1,6 +1,5 @@
 import Top from "./Top.jsx"
 import Content from "./Content.jsx"
-import { useState } from "react"
 
 function App(){
 
