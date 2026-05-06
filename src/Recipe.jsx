@@ -40,11 +40,9 @@ messages:[
 role:"user",
 
 
-content:`Create a detailed cooking recipe using:
-
+content: `Create a detailed cooking recipe using:
 
 ${ingredients.join(", ")}
-
 
 Generate a recipe in a presentable format with the following structure:
 
@@ -66,6 +64,7 @@ Generate a recipe in a presentable format with the following structure:
 - Use bold headings for each section.
 - Keep the language engaging and easy to follow.
 - Avoid long paragraphs; prefer short, skimmable sentences.
+`
 
 
 }
