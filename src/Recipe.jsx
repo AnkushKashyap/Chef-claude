@@ -83,10 +83,9 @@ max_tokens:500
 {
 
 
-headers:{
-
-
-Authorization:`Bearer ${import.meta.env.VITE_HF_API_KEY}`,
+headers: {
+  Authorization: `Bearer ${import.meta.env.VITE_HF_API_KEY}`,
+},
 
 
 "Content-Type":"application/json",
